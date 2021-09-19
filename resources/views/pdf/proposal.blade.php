@@ -52,6 +52,11 @@
                                     <td>{{ $item->total }}</td>
                                 </tr>
                             @endforeach
+                            <tr>
+                                <td colspan="2"></td>
+                                <td>Genel Toplam</td>
+                                <td>{{ $proposal->total }}</td>
+                            </tr>
                         </tbody>
                     </table>
                 </td>
